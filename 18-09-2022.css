@@ -1,0 +1,302 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+
+}
+.body{
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(gar.jpg);
+ height: 100vh;
+ width: auto;
+ background-size: cover;
+ background-position: center 100%;
+ background-attachment: fixed;
+
+} 
+
+.header {
+  background-image: url(papa.jpg) ;
+   height: 500px;
+   width: auto;
+   background-size: cover;
+   background-position: center 30%;
+   padding-top: 20px;
+  
+   
+}
+
+nav{
+  width: auto;
+  height: 80px;
+  background-color: #0009;
+  line-height: 80px;
+  
+}
+.navlogo img{
+
+      float: left;
+    width: auto;
+    height: 80px;
+    opacity: 70%;
+}
+
+.nav ul{
+  
+float: right;
+list-style-type: none;
+margin-right: 10px;
+
+}
+.nav ul li{
+display: inline-block;
+
+}
+
+
+.nav ul li a{
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+padding: 30px;
+transition: 0.6s ease;
+font-size: 20px;
+
+
+
+}
+
+.nav ul li a:hover{
+
+background-image: linear-gradient( #fff12d,#b18800);
+color: black;
+opacity: 50%;
+}
+.nav ul li.active a{
+
+background-color: #fff;
+color: black;
+opacity: 50%;
+}
+
+.title{
+
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  }
+  .title h1{
+  
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+  
+    font-weight: bold;
+    background-color: #0009;
+    
+  
+  }
+  .title h1:hover{
+
+    background-image: linear-gradient(to left, #fff12d,#b18800);
+    color: black;
+    opacity: 80%;
+  }
+  .hr {
+
+  height: 30px;
+
+
+  }
+
+  .container-fluid{
+    background-color: #0009;     
+     display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     
+   
+   
+   }
+
+   .card{
+    background-color: wheat;
+    width: 300px;
+    margin: 30px;
+    border-radius:  15px;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 20px 20px 20px rgb(0, 0, 0);
+    justify-content: space-evenly;
+    
+    
+    
+    }
+    
+    .card-img{
+      height: 170px;
+      margin-bottom: 15px;
+      background-size: cover;
+      border-radius: 15px 15px 0 0;
+      
+    }
+    .car-1{
+      background-image: url(futu.png);
+      
+      }
+      .car-2{
+        background-image: url(busi.png);
+      }
+      
+      .car-3{
+      
+        background-image: url(begier.jpg);
+      }
+      
+      .card p{
+       padding: 10px;
+      }
+      .card h2{
+        padding: 10px;
+      }
+       .card a{
+        background-color: black;
+        color: white;
+        border: 1px solid transparent;
+        padding: 15px 20px;
+        display: block;
+        text-align: center;
+        margin: 20px 50px;
+        
+        text-decoration: none;
+        font-size: 20px;
+       font-style: italic;
+        transition: 0.6s ease;
+       }
+      
+       .card a:hover{
+      
+        background-image: linear-gradient(to right, #006417,#00b128);
+        color: black;
+        
+       }
+      
+   
+
+  .footer{
+  
+    background-color:  #0009;
+    color: rgb(255, 255, 255);
+    padding: 100px;
+    border-top-left-radius: 140px;
+    border-top-right-radius: 140px;
+    line-height: 20px;
+    background-size: cover;
+  }
+  .row{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  
+  
+  }
+  
+
+  .col{
+    flex-basis: 25%;
+    padding: 30px;
+    text-align: center;
+   
+  }
+
+  .col ul li a{
+
+   text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    transition: 0.6s ease;
+    font-size: 20px;   
+   line-height: 30px;
+   
+    
+    
+    
+    
+    }
+
+    .col ul{
+    
+      
+      list-style-type: none;
+      
+    
+    }
+
+    .col h3{
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+      
+    }
+
+    .col p{
+
+      text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;    
+    font-size: 20px;   
+   line-height: 30px;
+   
+   
+    
+    }
+
+    .social{
+      flex-basis: 25%;
+      padding: 30px;
+      text-align: center;
+     
+    }
+    .social h3{
+      text-decoration: none;
+      font-weight: bolder;
+      font-size: 30px;
+          
+        }
+        .social .fa{
+         
+          
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 40px;
+          font-size: 20px;
+          color: rgb(0, 0, 0);
+          background: white;
+          margin: 10px;
+          cursor: pointer;
+          display: inline-block;
+        }
+
+      .me img{
+
+       margin-left: 47%;
+        width: 80px;
+        height: 80px;
+
+        
+    }
+
+    .copy{
+
+      text-align: center;
+      font-size: medium;
+      background-color: #0009;
+      color: white;
+     
+    
+    }
